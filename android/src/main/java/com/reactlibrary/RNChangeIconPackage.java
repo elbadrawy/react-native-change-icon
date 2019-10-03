@@ -13,11 +13,7 @@ import com.facebook.react.bridge.JavaScriptModule;
 
 public class RNChangeIconPackage implements ReactPackage {
 
-    private String packageName;
-
-    public RNChangeIconPackage(String packageName) {
-        this.packageName = packageName;
-    }
+    private String packageName = "com.alrajhiretailapp";
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
